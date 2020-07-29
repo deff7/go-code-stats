@@ -1,0 +1,12 @@
+package main
+
+import (
+  "bytes"
+  "fmt"
+  )
+
+func main() {
+    var buf bytes.Buffer
+
+    fmt.Println(buf.Len())
+}
